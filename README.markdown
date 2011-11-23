@@ -5,6 +5,7 @@ This is my take on a centralized media center. It is supposed to be operated
 via an html5-powered web interface.
 
 Some concepts that are supposed to be incorporated include:
+
 * Database star schema for fast querying
 * Generally optimized for efficient querying
 * Denormalized hierarchy tables
