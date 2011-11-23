@@ -5,7 +5,7 @@ gem 'rails', '3.1.3'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'sqlite3-ruby', :require => 'sqlite3'
 
 
 # Gems used only for assets and not required
@@ -30,3 +30,11 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+group :development do
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'rspec'
+  gem 'webrat'
+end
